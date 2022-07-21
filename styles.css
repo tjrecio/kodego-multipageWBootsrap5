@@ -1,0 +1,124 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: rgb(243, 18, 18);
+}
+.navbar-brand:hover {
+    opacity: 0.8;
+    font-weight: bold;
+    color: rgb(243, 18, 18);
+}
+#index-image {
+    background-image: url(img/flame_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#about-image {
+    background-image: url(img/fullserv_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#prodserv-bulk {
+    background-image: url(img/bulktank_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: transform .2s;
+}
+#prodserv-bulk:hover {
+    transform: scale(1.05);
+}
+#prodserv-design {
+    background-image: url(img/lpgline_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: transform .2s;
+}
+#prodserv-design:hover {
+    transform: scale(1.05);
+}
+#prodserv-safety {
+    background-image: url(img/safety_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: transform .2s;
+}
+#prodserv-safety:hover {
+    transform: scale(1.05);
+}
+#index-slogan {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5));
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-us{
+    color: black;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prodserv-header{
+    color: black;
+    font-size: 15.5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prodserv-body{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#partner-image {
+    background-image: url(img/partner_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#partner-body{
+    color: black;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#signup-image {
+    background-image: url(img/signup_orig.jpg);  
+    background-color:powderblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#footer-text{
+    font-size: 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
