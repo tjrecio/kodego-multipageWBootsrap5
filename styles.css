@@ -73,7 +73,7 @@ body{
 }
 #about-us{
     color: black;
-    font-size: clamp(1 rem, 2.5 vw, 4 rem);
+    font-size: clamp(13 px, 2.5 vw, 4 rem);
     display: flex;
     align-items: center;
     justify-content: center;
