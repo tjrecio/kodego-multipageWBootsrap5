@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-<title>Your preferred solutions provider</title>
+<title>index</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.php">
   <style>
 
   </style>
 </head>
 
 <body>
-  <div id="main" class="container-fluid text-center ">
+  <div class="container-fluid text-center bg-light">
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid font-weight-bold">
 
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo_main_nbg.png" alt="" width="45" height="60" class="d-inline-block align-text-center">LIQUID
+          <img src="img/logo_main_nbg.png" alt="" width="50" height="50" class="d-inline-block align-text-center">LIQUID
           SOLUTIONS INC
         </a>
 
@@ -29,15 +29,14 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="col rounded-2 p-3 w-100">
+          <div class="col border rounded-2 p-3 w-100">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
-              <a class="btn btn-outline-primary-light" href="about.html" role="button">About Us</a>
-              <a class="btn btn-outline-primary-light" href="prodserv.html" role="button">Product and
-                Services</a>
-              <a class="btn btn-outline-primary-light" href="contactus.html" role="button">Contact Us</a>
-              <a class="btn btn-outline-primary-light" href="register.html" role="button">REGISTER</a>
-              <a class="btn btn-outline-primary-light" href="login.html" role="button">LOGIN</a>
+              <a class="btn btn-outline-primary-light" href="#" role="button">About Us</a>
+              <a class="btn btn-outline-primary-light" href="#" role="button">Product and Services</a>
+              <a class="btn btn-outline-primary-light" href="#" role="button">Contact Us</a>
+              <a class="btn btn-outline-primary-light" href="#" role="button">REGISTER</a>
+              <a class="btn btn-outline-primary-light" href="#" role="button">LOGIN</a>
 
             </div>
           </div>
@@ -46,33 +45,69 @@
     </nav>
 
     <div class="row">
-      <div class="col rounded-2">
-        <div id="index-image" class="row">
-          <div class="col rounded-2">
+      <div class="col border rounded-2 p-3">
+        <div class="row">
+          <div class="col border rounded-2 p-3 vh-100">
+            This is the first column
           </div>
-          <div id="index-slogan" class="col-sm-6 rounded-2 vh-100">
-            <p>Liquid solutions for your dynamic needs.</p>
+          <div class="col border rounded-2 p-3 vh-100">
+            This is the second column
           </div>
         </div>
       </div>
     </div>
 
-    <div id="footer-text" class="row">
-      <div class="col rounded-2 p-3">
+    <div class="row">
+      <div class="col border rounded-2 p-3">
         <div class="row">
-          <span class="col-sm rounded-2 p-3">
-            <p>Copyright 2022 Liquid Solutions, Incorporated</p>
-          </span>
-          <div class="col-sm  rounded-2 p-3 text-muted">
+          <div class="col-sm-3 border rounded-2 p-3 vh-100">
+            This is the first column
+          </div>
+          <div class="col-sm-3 border rounded-2 p-3 vh-100">
+            This is the second column
+          </div>
+          <div class="col-sm-3 border rounded-2 p-3 vh-100">
+            This is the third column
+          </div>
+          <div class="col-sm-3 border rounded-2 p-3 vh-100">
+            This is the fourth column
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <a href="about.html" class="text-decoration-none text-reset">About Us</a> -
-            <a href="prodserv.html" class="text-decoration-none text-reset">Product and Services</a> -
-            <a href="contactus.html" class="text-decoration-none text-reset">Contact Us</a>
+    <div class="row">
+      <div class="col border rounded-2 p-3">
+        <div class="row">
+          <div class="col-sm-2 border rounded-2 p-3">
+            This is the first column
+          </div>
+          <div class="col border rounded-2 p-3 vh-100">
+            This is the second column
+          </div>
+          <div class="col-sm-2 border rounded-2 p-3">
+            This is the third column
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col border rounded-2 p-3">
+        <div class="row">
+          <span class="col-sm border rounded-2 p-3">
+            Copyright 2022 Liquid Solutions, Incorporated
+          </span>
+          <div class="col-sm border rounded-2 p-3 text-muted">
+
+            <a href="#" class="text-decoration-none text-reset">About Us</a> -
+            <a href="#" class="text-decoration-none text-reset">Product and Services</a> -
+            <a href="#" class="text-decoration-none text-reset">Contact Us</a>
 
           </div>
-          <div class="col-sm  rounded-2">
+          <div class="col-sm border rounded-2">
             <div class="row">
-              <div class="col  rounded-2 p-3">
+              <div class="col border rounded-2 p-3">
                 <a href="https://www.twitter.com" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-twitter" viewBox="0 0 16 16">
@@ -81,7 +116,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="col  rounded-2 p-3">
+              <div class="col border rounded-2 p-3">
                 <a href="https://www.facebook.com" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-facebook" viewBox="0 0 16 16">
@@ -90,7 +125,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="col  rounded-2 p-3">
+              <div class="col border rounded-2 p-3">
                 <a href="https://www.linkedin.com" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-linkedin" viewBox="0 0 16 16">
