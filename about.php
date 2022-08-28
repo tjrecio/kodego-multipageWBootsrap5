@@ -6,7 +6,7 @@
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.php">
   <style>
 
   </style>
@@ -46,35 +46,26 @@
     </nav>
 
     <div class="row">
-      <div class="col rounded-2">
-        <div id="index-image" class="row">
-          <div class="col">
+      <div class="col">
+        <div class="row">
+          <div id="about-us" class="col p-3 vh-100">
+            <p>
+              Established since 2009 with Safety, Consistency, and Reliability in mind, we have grown from
+              a simple distribution company, to providing fully-responsive turn-key solutions to our
+              partners in the commercial and industrial sectors of the Philippines.
+              <br>
+              <br>
+              Exclusively partnered with Total Gas (Philippines), we are one of the leading full-spectrum
+              service providers of packed (cylindered) or bulk Liquified Petroleum Gas (LPG) to a number
+              of leading commercial and industrial businesses.
+              <br>
+              <br>
+              The services we provide are backed by internationally-accredited safety standards and
+              industry-leading practices, giving you peace of mind and keeping you focused on what matters
+              most.
+            </p>
           </div>
-          <div id="about-us" class="col-sm-4 bg-light vh-100">
-            <form>
-              <br>
-              <p id="prodserv-header">LOGIN</p>
-              <div class="row m-3">
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" id="email" required>
-              </div>
-              <div class="row m-3">
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-                <span class="psw">Forgot <a href="#">password</a>?</span>
-              </div>
-              <br>
-              <br>
-              <button class="btn btn-outline-primary-light" type="submit">Login</button>
-              <div>
-                <label>
-                  <br>
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-              </div>
-            </form>
-          </div>
-          <div class="col">
+          <div id="about-image" class="col rounded-2 p-3 m-4 vh-100">
           </div>
         </div>
       </div>
@@ -82,6 +73,7 @@
 
     <div id="footer-text" class="row">
       <div class="col rounded-2 p-3">
+        <hr>
         <div class="row">
           <span class="col-sm rounded-2 p-3">
             Copyright 2022 Liquid Solutions, Incorporated

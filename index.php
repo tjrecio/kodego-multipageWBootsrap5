@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
-<title>index</title>
+<title>Your preferred solutions provider</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.php">
   <style>
 
   </style>
 </head>
 
 <body>
-  <div class="container-fluid text-center bg-light">
+  <div id="main" class="container-fluid text-center ">
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid font-weight-bold">
 
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo_main_nbg.png" alt="" width="45" height="60" class="d-inline-block align-text-center">LIQUID
-          SOLUTIONS INC
+          <img src="img/logo_main_nbg.png" alt="" width="45" height="60" class="d-inline-block align-text-center">LIQUID SOLUTIONS INC
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -33,8 +32,7 @@
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
               <a class="btn btn-outline-primary-light" href="about.html" role="button">About Us</a>
-              <a class="btn btn-outline-primary-light" href="prodserv.html" role="button">Product and
-                Services</a>
+              <a class="btn btn-outline-primary-light" href="prodserv.html" role="button">Product and Services</a>
               <a class="btn btn-outline-primary-light" href="contactus.html" role="button">Contact Us</a>
               <a class="btn btn-outline-primary-light" href="register.html" role="button">REGISTER</a>
               <a class="btn btn-outline-primary-light" href="login.html" role="button">LOGIN</a>
@@ -47,45 +45,11 @@
 
     <div class="row">
       <div class="col rounded-2">
-        <div class="row">
-          <div id="partner-image" class="col rounded-2 m-3">
+        <div id="index-image" class="row">
+          <div class="col rounded-2">
           </div>
-          <div id="contactus-form" class="col-sm-6 bg-light vh-100">
-            <form>
-              <br>
-              <p id="prodserv-header">Contact Us</p>
-              <p id="partner-body">Thank you for your interest. We will get back to you as soon as
-                possible.</p>
-              <div class="row m-3 mb-3">
-                <label for="subject">Subject</label>
-                <select id="subject" name="subject">
-                  <option value="serveinquire">Inquiring about Services</option>
-                  <option value="inquirejobs">Inquiring about a job at Liquid Solutions</option>
-                  <option value="concernenviro">Reporting an enviromental concern</option>
-                  <option value="concernregulatory">Reporting a regulatory concern</option>
-                  <option value="concerntransport">Report a transport concern</option>
-                  <option value="customerserv">Report a customer experience</option>
-                  <option value="others">Others</option>
-                </select>
-              </div>
-              <div class="row m-3">
-                <label for="fname text-left">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-              </div>
-              <div class="row m-3">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              </div>
-              <div class="row m-3">
-                <label for="phonenumber">Phone Number</label>
-                <input type="number" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
-              </div>
-              <div class="row m-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <input type="submit" value="Submit" class="btn btn-outline-primary-light">
-            </form>
+          <div id="index-slogan" class="col-sm-6 rounded-2 vh-100">
+            <p>Liquid solutions for your dynamic needs.</p>
           </div>
         </div>
       </div>
@@ -95,7 +59,7 @@
       <div class="col rounded-2 p-3">
         <div class="row">
           <span class="col-sm rounded-2 p-3">
-            Copyright 2022 Liquid Solutions, Incorporated
+            <p>Copyright 2022 Liquid Solutions, Incorporated</p>
           </span>
           <div class="col-sm  rounded-2 p-3 text-muted">
 
@@ -104,9 +68,9 @@
             <a href="contactus.html" class="text-decoration-none text-reset">Contact Us</a>
 
           </div>
-          <div class="col-sm rounded-2">
+          <div class="col-sm  rounded-2">
             <div class="row">
-              <div class="col rounded-2 p-3">
+              <div class="col  rounded-2 p-3">
                 <a href="https://www.twitter.com" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-twitter" viewBox="0 0 16 16">
@@ -115,7 +79,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="col rounded-2 p-3">
+              <div class="col  rounded-2 p-3">
                 <a href="https://www.facebook.com" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-facebook" viewBox="0 0 16 16">
@@ -124,7 +88,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="col rounded-2 p-3">
+              <div class="col  rounded-2 p-3">
                 <a href="https://www.linkedin.com" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-linkedin" viewBox="0 0 16 16">
